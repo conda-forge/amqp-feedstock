@@ -14,14 +14,16 @@ Summary: Low-level AMQP client for Python (fork of amqplib)
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/amqp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/amqp-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/amqp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/amqp-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/amqp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/amqp-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/amqp-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/amqp-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/amqp-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/amqp-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/amqp-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/amqp-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/amqp/badges/version.svg)](https://anaconda.org/conda-forge/amqp)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/amqp/badges/downloads.svg)](https://anaconda.org/conda-forge/amqp)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-amqp-green.svg)](https://anaconda.org/conda-forge/amqp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/amqp.svg)](https://anaconda.org/conda-forge/amqp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/amqp.svg)](https://anaconda.org/conda-forge/amqp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/amqp.svg)](https://anaconda.org/conda-forge/amqp) |
 
 Installing amqp
 ===============
