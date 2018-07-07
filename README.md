@@ -14,9 +14,8 @@ Summary: Low-level AMQP client for Python (fork of amqplib)
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/amqp-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/amqp-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/amqp-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/amqp-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/amqp-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/amqp-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/amqp-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/amqp-feedstock)
 
 Current release info
 ====================
