@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About amqp
 ==========
 
@@ -18,8 +14,17 @@ Summary: Low-level AMQP client for Python (fork of amqplib)
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/amqp-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/amqp-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2683&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/amqp-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
