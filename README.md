@@ -5,7 +5,7 @@ Home: http://github.com/celery/py-amqp
 
 Package license: BSD 3-clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Low-level AMQP client for Python (fork of amqplib)
 
