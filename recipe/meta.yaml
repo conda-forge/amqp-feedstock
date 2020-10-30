@@ -33,8 +33,7 @@ test:
 
 about:
   home: http://github.com/celery/py-amqp
-  license: BSD 3-clause
-  license_family: BSD
+  license: BSD-3-clause
   license_file: LICENSE
   summary: Low-level AMQP client for Python (fork of amqplib)
   doc_url: https://amqp.readthedocs.io/
