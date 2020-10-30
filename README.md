@@ -3,13 +3,15 @@ About amqp
 
 Home: http://github.com/celery/py-amqp
 
-Package license: BSD 3-clause
+Package license: BSD-3-clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amqp-feedstock/blob/master/LICENSE.txt)
 
 Summary: Low-level AMQP client for Python (fork of amqplib)
 
+Development: http://github.com/celery/py-amqp/
 
+Documentation: https://amqp.readthedocs.io/
 
 Current build status
 ====================
