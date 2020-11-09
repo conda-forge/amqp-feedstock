@@ -1,18 +1,17 @@
 {% set name = "amqp" %}
-{% set version = "5.0.1" %}
+{% set version = "5.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9881f8e6fe23e3db9faa6cfd8c05390213e1d1b95c0162bc50552cad75bffa5f
+  sha256: fcd5b3baeeb7fc19b3486ff6d10543099d40ae1f5c9196eae695d1cde1b2f784
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -32,12 +31,12 @@ test:
     - amqp
 
 about:
-  home: http://github.com/celery/py-amqp
+  home: https://github.com/celery/py-amqp/
   license: BSD-3-Clause
   license_file: LICENSE
   summary: Low-level AMQP client for Python (fork of amqplib)
   doc_url: https://amqp.readthedocs.io/
-  dev_url: http://github.com/celery/py-amqp/
+  dev_url: https://github.com/celery/py-amqp/
 
 extra:
   recipe-maintainers:
