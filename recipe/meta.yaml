@@ -1,5 +1,5 @@
 {% set name = "amqp" %}
-{% set version = "5.1.0" %}
+{% set version = "5.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 446b3e8a8ebc2ceafd424ffcaab1c353830d48161256578ed7a65448e601ebed
+  sha256: 2c1b13fecc0893e946c65cbd5f36427861cffa4ea2201d8f6fca22e2a373b5e2
 
 build:
   noarch: python
