@@ -1,13 +1,13 @@
 {% set name = "amqp" %}
-{% set version = "5.3.1" %}
+{% set version = "5.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/amqp-{{ version }}.tar.gz
-  sha256: cddc00c725449522023bad949f70fff7b48f0b1ade74d170a6f10ab044739432
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/amqp-{{ version }}.tar.gz
+  sha256: aaa33987dcb6a7893955d3b4f537c5d4755addce1009929e63e5d18c1b51a0a7
 
 build:
   noarch: python
