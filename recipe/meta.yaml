@@ -1,13 +1,13 @@
 {% set name = "amqp" %}
-{% set version = "5.3.1" %}
+{% set version = "5.4.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/amqp-{{ version }}.tar.gz
-  sha256: cddc00c725449522023bad949f70fff7b48f0b1ade74d170a6f10ab044739432
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/amqp-{{ version }}.tar.gz
+  sha256: 79a9c0ab70e71745667f127ff80666894a734c26236b6f33149c964b096f0b20
 
 build:
   noarch: python
@@ -17,6 +17,7 @@ build:
 requirements:
   host:
     - python {{ python_min }}
+    - setuptools
     - pip
   run:
     - python >={{ python_min }}
@@ -45,3 +46,4 @@ extra:
     - kwilcox
     - wseaton
     - frol
+    - soapy1
